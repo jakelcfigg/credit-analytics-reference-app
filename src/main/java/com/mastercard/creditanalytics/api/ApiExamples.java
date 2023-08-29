@@ -58,10 +58,10 @@ public class ApiExamples {
         if (ApiClient == null) {
             ApiClient = ApiHelper.getApiClient(
                 "https://sandbox.api.mastercard.com/small-business/credit-analytics/locations",
-                "path\\to\\your\\private_key.p12", // a reasonable place to store this would be src/main/resources/*.p12
-                "your keyalias",
-                "your keystorepassword",
-                "consumer key from your Developer Zone project");
+                "./src/main/resources/Small_Business_Credit_Analytics_API_-sandbox.p12", // a reasonable place to store this would be src/main/resources/*.p12
+                "keyalias",
+                "keystorepassword",
+                "jM9rOcnseVn_1y8-TLJYG4gQNWhGTKq2xk47rAOOd86d6176!c6fbd1f2f9f74cbabf54e4b9e72c66750000000000000000");
         }
 
         return ApiClient;
